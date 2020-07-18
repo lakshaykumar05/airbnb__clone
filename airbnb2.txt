@@ -1,0 +1,22 @@
+#background_image
+{
+    background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height:1000px;
+    color:#fff;
+  
+    width:1500px;
+    padding-top:0px;
+}
+.star_color
+{ color:blue;
+margin-left:25px;
+}
+.heart_size
+{ 
+font-size:70px;
+}
+.logo_1
+{ margin-top: 30px;}
+.panel_black
+{ color:black;
+}

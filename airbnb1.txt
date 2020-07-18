@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>airbnb</title>
+        <style>
+            .row_style
+{ margin-top:160px;
+padding-left:0px;
+}
+h1
+{ font-size:35px;
+  font-weight:bold;
+}
+h4
+{ font-size:20px;
+font-weight:bold;
+}
+h3
+{ font-weight:bold;
+  font-size:26px;
+}
+p
+{ font-size:16px;
+}
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body>
+        
+        <div id="background_image">
+        
+            <div class="container">
+            <div class="row row_style">
+                <div class="col-xs-5">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1>Book unique places to stay and things to do.</h1>
+                        </div>
+                        <div class="panel-body">
+                          <div class="panel_black"> 
+                                
+                            <h4>WHERE</h4>
+                            <input type="text" placeholder="Anywhere" class="form-control">
+                                
+                            <form class="form-inline">
+                               <h4>CHECK-IN</h4>
+                            <input type="text" placeholder="mm/dd/yyyy" class="form-control">
+                               
+                            <h4>CHECK-OUT</h4>
+                            <input type="text" placeholder="mm/dd/yyyy" class="form-control">
+                            </form>
+                            <h4>GUESTS</h4>
+                            <select class="form-control">
+                                <option>Guests</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select> 
+                            <br>
+                          </div>
+                            <input type="submit" value="Search" class="btn btn-danger btn-lg btn-block">
+                        </div>    
+                            </div>
+                                          </div>
+                </div>
+            </div>
+        
+       
+            <nav class="navbar navbar-default navbar-fixed-top">
+            
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data target="#mynavbar">
+                        <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#"><span class="glyphicon glyphicon-cog"></span> English(US)</a></li>
+                              <li><a href="#"><span class="glyphicon glyphicon-usd"></span> USD</a></li>
+                          <li><a href="#"> Host a home</a></li>
+                    <li><a href="#"> Host an experience</a></li>
+                     <li><a href="#"> Help</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    <li><a href="#"> Login</a></li>
+                    </ul>
+                </div>
+            
+        </nav>    
+     
+        
+        </div> 
+        
+        <div class="container">
+            <h3>What guests are saying about homes in India</h3>
+            <br> <h4> India homes were rate 4.6 out of 5 stars with 510,000+ reviews</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="https://a0.muscache.com/im/pictures/24509164/1bf6f65d_original.jpg?aki_policy=large" alt="responsive image"> <br>
+                        <div class="star_color">
+                        <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                        <div class="caption">
+                            <p>Great 1 night stay at Sea Hut. Rooms clean and spacious. Great fish dinner in banana leaf cooked by the lady of house- wonderful.......</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="https://a0.muscache.com/im/pictures/09949911-93fa-4282-a7e0-482cf63513d4.jpg?aki_policy=large" alt="responsive image"> <br>
+                       <div class="star_color">
+                        <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>
+                       </div>
+                        <div class="caption">
+                            <p>The place was exactly what we needed. A good place to crash between flights. Close to the airport and in good area. A little bit.......</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="https://a0.muscache.com/im/pictures/2c9522b0-a7f1-4f37-9368-0d22cef9c2cb.jpg?aki_policy=large " alt="responsive image"> <br>
+                        <div class="star_color">  
+                        
+                            <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>   <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                            <div class="caption">
+                            <p>Amita Goel is just brilliant. She is precise and to the point.She communicates well before the travel which is comforting for the guest....... </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="container">
+            <h2>Travelling with Airbnb</h2>
+            <div class="row">
+           <div class="col-sm-4">
+                <div class="thumbnail">
+                 <div class="heart_size">
+                    <span class="glyphicon glyphicon-heart-empty"></span>
+                 </div>
+                    <div class="caption">
+                        <h4>24/7 customer support</h4>
+                        Day or night,we're here for you. Talk to our support team from anywhere in the world, any time of the day.
+                    </div>
+            </div>
+        </div>
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                 <div class="heart_size">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                 </div>
+                    <div class="caption">
+                        <h4>Global hospitality standards</h4>
+                        Guests review their hosts after each stay.All hosts must maintain a minimum rating and our hospitality standards to be on Airbnb.
+                    </div>
+            </div>
+        </div>
+                
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                 <div class="heart_size">
+                    <span class="glyphicon glyphicon-user"></span>
+                 </div>
+                    <div class="caption">
+                        <h4>5-star hosts</h4>
+                        From fresh-pressed sheets to tips on where to get the best brunch,our hosts are full of local hospitality.
+                    </div>
+            </div>
+        </div>
+                
+            </div>
+        </div>        
+        
+    
+        
+    </body>
+</html>
